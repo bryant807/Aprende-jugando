@@ -1,64 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aprende-jugando</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprende Jugando</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav>
-    <div class="logo">
-      <h1>Ludokids</h1>
-    </div>
-    <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="actividades.html">actividades</a></li>
-      <li><a href="cuenta.html">cuenta</a></li>
-      <li><a href="registrarse">Registrate</a></li>
-    </ul>
-  </nav>
-  <style>
-    nav {
-      position: relative;
-      background: url('imagenes/fondo.jpg') no-repeat center top/cover;
-      min-height: 150px;
-      color: #fff;
-    }
-    nav .logo, nav ul {
-      position: relative;
-      z-index: 2;
-    }
-    nav::after {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.4); /* oscurece la imagen para mejor contraste */
-      z-index: 1;
-    }
-  </style>
-  <div class="main-content"></div>
-  <div class="formulario" id="loginForm" style="display: none;">
-    <span class="close-button" id="closeButton">&times;</span>
-    <h1>Inicio de sesión</h1>
-    <form method="post">
-      <div class="username">
-        <input type="text" id="username" name="username" required>
-        <label for="username">Nombre de usuario</label>
-      </div>
-      <div class="contrasena">
-        <input type="password" id="password" name="password" required>
-        <label for="password">Contraseña</label>
-      </div>
-      <div class="recordar">
-        <a href="#">¿Olvidó su contraseña?</a>
-      </div>
-      <input type="submit" value="Iniciar sesión">
-      <div class="registrarse">
-        Quiero hacer el <a href="#" id="showRegister">registro</a>
-      </div>
-    </form>
-  </div>
-  <script src="script.js"></script>
+    <header>
+        <div class="logo">Ludokids</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Juegos</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Cuenta</a></li>
+                <li><a href="#">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>¡Aprender nunca fue tan divertido!</h1>
+        <p>Juega, explora, canta y aprende con nosotros</p>
+        <a href="#" class="btn">Iniciar sesion</a>
+    </section>
+
+    <section class="juegos">
+        <h2>🎮 Juegos Destacados</h2>
+        <div class="juego-lista">
+            <div class="juego">
+                <h3>🧠 Suma Monstruosa</h3>
+                <p>Ayuda al monstruo a sumar correctamente.</p>
+                <a href="#" class="btn-jugar">Jugar</a>
+            </div>
+            <div class="juego">
+                <h3>🔠 Palabras Mágicas</h3>
+                <p>Forma palabras con letras encantadas.</p>
+                <a href="#" class="btn-jugar">Jugar</a>
+            </div>
+            <div class="juego">
+                <h3>🧪 Exploradores del Espacio</h3>
+                <p>Descubre planetas y aprende ciencia.</p>
+                <a href="#" class="btn-jugar">Jugar</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="creativo">
+        <h2>🎨 Aprende de forma creativa</h2>
+        <ul>
+            <li>🖌️ Dibuja tu mundo</li>
+            <li>📖 Cuentos interactivos</li>
+            <li>🎵 Canta y aprende</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>2025 Aprendemos jugando todos los días</p>
+    </footer>
 </body>
 </html>
