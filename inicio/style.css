@@ -1,0 +1,119 @@
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff7f0;
+  color: #333;
+}
+
+header {
+  background-color: #ffb6c1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3vh;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  background-color: #ffe4e1;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.hero {
+  background: linear-gradient(to right, #fddde6, #f9e79f);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.juegos {
+  padding: 40px 20px;
+  background-color: #e0f7fa;
+  text-align: center;
+}
+
+.juego-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.juego {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn-jugar {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #64b5f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.btn-jugar:hover {
+  background-color: #1976d2;
+}
+
+.creativo {
+  padding: 40px 20px;
+  background-color: #fce4ec;
+  text-align: center;
+}
+
+.creativo ul {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+}
+
+.creativo li {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #f8bbd0;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+}
